@@ -1,0 +1,39 @@
+#root,html,body{
+  margin:0;
+  padding:0;
+  height:100vh;
+  /* mtlb full monitor ki height le lega */
+  box-sizing: border-box;
+}
+.app{
+height: 100%;
+background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/pexels-jiarong-deng-1034662.jpg');
+/* linear gradient is used to darken the image mtlb humare aur cheezo ko hamper na kre */
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.card{
+  background-color: whitesmoke;
+  width: 40%;
+height:20%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 2%;
+border-radius: 25px;
+box-shadow: 10px;
+
+}
+
+.heading{
+  font-family: 'League Spartan', sans-serif;
+  display: flex;
+  align-items: center;
+  height: 580px;
+}

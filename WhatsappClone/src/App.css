@@ -1,0 +1,22 @@
+.app{
+background-color: #dadbd3;
+/* The CSS Grid Layout Module offers a grid-based layout system, with rows and
+columns, making it easier to design web pages without having to use floats and
+positioning. */
+/* All direct children of the grid container automatically become grid items */
+display: grid;
+place-items: center;
+height: 100vh;
+}
+.app__body{
+  display: flex;
+  background-color: #ededed;
+  /* vw	Relative to 1% of the width of the viewport viewport is the rectangular box (the screen)
+vh	Relative to 1% of the height of the viewport* */
+  height:90vh;
+  width:90vw;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow:-1px 4px 20px -6px rgba(0,0,0,0.75);
+  margin-top:-50px;
+  /* (dekhoge neeche se thoda uth jaega) */
+}

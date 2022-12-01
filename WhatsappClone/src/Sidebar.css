@@ -1,0 +1,22 @@
+.sidebar{
+    display: flex;
+    flex:0.35;
+    /* so that it uses entire page otherwise since parent me mtlb app__body me display:flex hai woh parent hai poori width nhi le rha islye toh yeh bhi nhi le rha islye flex:1 ab poori width le lega*/
+    flex-direction:column
+}
+.sidebar__header{
+    display:flex;
+    padding:20px;
+    justify-content: space-between;
+    border-right: 1px solid lightgray;
+}
+.sidebar__headerRight{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    min-width:10vw;
+}
+.sidebar__headerRight>.MuiSvgIcon-root{
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
